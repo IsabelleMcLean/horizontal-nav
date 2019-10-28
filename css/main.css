@@ -9,7 +9,6 @@ html {
 }
 
 header {
-  display: block;
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
@@ -20,8 +19,6 @@ header {
 nav {
   display: inline-block;
   font-family: sans-serif;
-  list-style-type: none;
-  text-decoration: none;
 }
 
 body {
@@ -30,14 +27,32 @@ body {
 }
 
 h1 {
+  margin: 0;
   font-family: Bevan, serif;
   color: #fff;
+  font-weight: normal;
 }
 
 a {
   background-color: #713837;
-  border-radius: 1px;
+  border-radius: 4px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
+  padding: .5em .75em;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #f33;
 }
